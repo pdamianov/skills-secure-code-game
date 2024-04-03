@@ -25,6 +25,5 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v3
       - name: Check GitHub Status
-        uses: dduzgun-security/secure-code-game-action@dc70b85ad674f6e93657401f3933622870372093 # v1.0
         run: |
           curl https://www.githubstatus.com/api/v2/status.json
